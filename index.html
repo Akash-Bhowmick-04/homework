@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fill the Student form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  </body>
+    <center> 
+      <h1>Government College of Enginnering and Leather Technology</h1>
+      <img src="images.png" width="100"" alt="">
+    </center>
+    <form action="">
+      <label for="username">Student name: </label>
+      <input type="text" name="username" placeholder=" first name" autofocus required/>
+      <input type="text" name="username" placeholder="middle name"/>     
+      <input type="text" name="username" placeholder="last name" required />
+      <br>
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" id="male"><label for="male">Male</label>
+      <input type="radio" name="gender" id="female"><label for="female">Female</label>
+      <br>
+      <label for="DOB">Date of Birth:</label>
+      <input type="date" name="DOB" id="DOB" required>
+      <br>
+      <label for="age">Age:</label>
+      <input type="number" name="Age" max="1000" min="1" placeholder="enter age" id="age">
+      <br>
+      <label for="address">Address:</label>
+      <br>
+      <input type="text" name="street name" placeholder=" Street name" >
+      
+      <input type="text" name="city" placeholder="City name" />
+  
+      <input type="text" name="state" placeholder="State name" id="">
+     
+      <input type="number" name="pin " placeholder="pin number" id="">
+      <select name="Country" id="">
+        <option value="india">India</option>
+        <option value="USA">USA</option>
+        <option value="nepal">Nepal</option>
+        <option value="bangladesh">Bangladesh</option>
+        <option value="srilanka">Srilanka</option>
+        <option value="pakistan">Pakistan</option>
+        <option value="bhutan">Bhutan</option>
+        <option value="china">China</option>
+      </select>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="enter your email" id="email" required>
+      <label for="mobile number">Mobile number:</label>
+      <input type="number" name="mobile number" placeholder="enter your mobile number" id="Mobile number" required>
+      
+    </form>
+  </body>
+</html>
