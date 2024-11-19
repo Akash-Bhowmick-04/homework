@@ -1,8 +1,11 @@
 ul{
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
 }
 footer{
     position: fixed;
     bottom: 0%;
+    font-style: oblique;
 }
+body{background-color: antiquewhite;}
